@@ -13,12 +13,12 @@ print(palindromo(1))
 
 Arroja el siguiente error:
 
->>Traceback (most recent call last):
->>  File "main.py", line 4, in <module>
->>    print(palindromo(1))
->>  File "main.py", line 2, in palindromo 
->>    return string == string[::-1]
->>TypeError: 'int' object is not subscriptable
+>Traceback (most recent call last):
+>  File "main.py", line 4, in <module>
+>    print(palindromo(1))
+>  File "main.py", line 2, in palindromo 
+>    return string == string[::-1]
+>TypeError: 'int' object is not subscriptable
 
 Y sucede porque la función no está protegida para cuando recibe un tipo de dato para el que no fue creada, o no espera el tipo de dato ingresado. Ya que, un número entero no se puede manejar como una cadena.
 
@@ -36,7 +36,7 @@ except TypeError:
 
 Aquí obtenemos la siguiente salida:
 
->> Solo se pueden ingresar strings
+> Solo se pueden ingresar strings
 
 ## raise
 
@@ -54,7 +54,7 @@ except TypeError:
 
 La salida de esta ejecución es la siguiente:
 
->>True
+>True
 
 Y Python no se equivoca, la cadena vacía es igual a la cadena vacía inversa, pero, para fines practicos esto no puede ser calificado como un palíndromo. Entonces, la solución de este tipo de error es la siguiente:
 
@@ -76,7 +76,7 @@ except TypeError:
 
 Aquí, acepta el valor de la cadena vacía pero eleva un error de valor con el mensaje:
 
->>No se puede ingresar una cadena vacía
+>No se puede ingresar una cadena vacía
 
 Lo cual detiene la ejecución y finaliza el programa.
 

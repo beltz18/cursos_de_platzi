@@ -20,9 +20,9 @@ Cuando Python no avisa un error suele tener que ver con un error de código por 
 
 Cuando Python nos avisa, devuelve un Traceback, que es algo como lo siguiente:
 
->>Traceback (most recent call last):
->>  File "<stdin>", line 1, in <module>
->>**ZeroDivisionError**: division by zero
+>Traceback (most recent call last):
+>  File "<stdin>", line 1, in <module>
+>**ZeroDivisionError**: division by zero
 
 Que es el error que obtenemos cuando tratamos de hacer una división entre cero.
 

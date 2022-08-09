@@ -4,4 +4,4 @@ Es una pieza de información que permite explicar cómo funciona una tecnología
 
 La podemos ver como un manual de instrucciones de un producto.
 
->> La documentación de Python contiene desde tutoriales, *PEP's* y el funcionamiento de cada una de las funciones del lenguaje. Ésta está escrita de manera técnica.
+> La documentación de Python contiene desde tutoriales, *PEP's* y el funcionamiento de cada una de las funciones del lenguaje. Ésta está escrita de manera técnica.

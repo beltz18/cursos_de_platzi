@@ -24,7 +24,7 @@ La función saludo recibe como parametro otra función, de esta forma, cuando se
 
 Para problemas como el siguiente:
 
->> ```[1,4,5,6,9,13,19,21]```
+> ```[1,4,5,6,9,13,19,21]```
 
 Donde se quiere extraer, por ejemplo, en una nueva lista todos los números excepto los que sean pares, se puede emplear las List Comprehensions. Quedaría algo así:
 
@@ -46,7 +46,7 @@ print(odd)
 
 El resultado mostrado por pantalla en ambos casos sería:
 
->> ```[1,5,9,13,19,21]```
+> ```[1,5,9,13,19,21]```
 
 Al final, la función filter recibe dos parametros: una función anónima y un iterable. Filter por defecto retorna un iterador.
 
@@ -54,7 +54,7 @@ Al final, la función filter recibe dos parametros: una función anónima y un i
 
 Si tenemos la siguiente lista:
 
->> ```[1,2,3,4,5]```
+> ```[1,2,3,4,5]```
 
 y deseamos crear una nueva a partir de esta donde los valores estén aumentados al cuadrado. Podríamos resolverlo con List Comprehensions de la siguiente manera:
 
@@ -76,7 +76,7 @@ print(squares)
 
 El resultado mostrado por pantalla en ambos casos sería:
 
->> ```[1,4,9,16,25]```
+> ```[1,4,9,16,25]```
 
 Map, al igual que filter, recibe dos parametros, pero, recibe una lista y retorna otra.
 
@@ -84,7 +84,7 @@ Map, al igual que filter, recibe dos parametros, pero, recibe una lista y retorn
 
 Imaginemos que tenemos la siguiente lista:
 
->> ```[2,2,2,2,2]```
+> ```[2,2,2,2,2]```
 
 y queremos multiplicar todos los valores para obtener el resultado. Podemos reducir el valor de la lista a uno solo mediante el siguiente código:
 
@@ -111,4 +111,4 @@ print(all_m)
 
 El resultado mostrado por pantalla en ambos casos sería:
 
->> ```32```
+> ```32```

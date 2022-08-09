@@ -15,7 +15,7 @@ assert condition, error message
 
 Sería algo como:
 
->> Afirmo que esta condición es verdadera, sino, imprimo un mensaje de error
+> Afirmo que esta condición es verdadera, sino, imprimo un mensaje de error
 
 Ejemplo practico:
 
@@ -29,6 +29,6 @@ print(palindromo(""))
 
 Salida:
 
->>AssertionError: No se puede ingresar una cadena vacía
+>AssertionError: No se puede ingresar una cadena vacía
 
 Funcionan igual que las excepciones: si la condición es verdadera se ejecuta el bloque de código, sino, eleva un error
